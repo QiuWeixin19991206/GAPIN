@@ -115,7 +115,7 @@ class CosineAnnealingSchedule(tf.keras.optimizers.schedules.LearningRateSchedule
 lb = np.array([-4, -1.0])
 ub = np.array([3.96875, 1.0])
 #load data from NLS.mat
-data = scipy.io.loadmat(r'C:\Users\hcxy\Documents\Tencent Files\1940824907\FileRecv\新建文件夹\tf2\PINN_TF2_NLS-master\PINN_TF2_NLS-master\非简并双孤子\double.mat')
+data = scipy.io.loadmat(r'C:\Users\\非简并双孤子\double.mat')
 
 #切片和分配数据：
 t = data['tt'].flatten()[:,None]
