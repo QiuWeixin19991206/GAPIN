@@ -1,1 +1,1 @@
-# GAN
+# GAN_PINN
